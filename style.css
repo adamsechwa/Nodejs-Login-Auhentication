@@ -1,0 +1,62 @@
+.navbar {
+    color: white;
+    padding: 0 1em;
+    font-size: 1rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+    .navbar a {
+      color: white;
+      text-decoration: none;
+    }
+    .navbar.navbar-brand {
+      font-weight: bold;
+    }
+    .navbar-icon {
+        max-height: 2rem;
+        margin-right: 1rem;
+      }
+    .navbar-menu {
+      display: flex;
+      margin-left: auto;
+    }
+    .navbar-item {
+        display: flex;
+        align-items: center;
+        padding: 1em;
+    }
+
+    a {
+        padding: 0;        
+        transition: all 0.2s;
+      }
+    a:hover {
+        background-color: var(--theme);
+      }
+  
+  .hero {
+      padding: 3rem 1rem;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--overlay);
+    }
+    .hero-has-background {
+        color: white;    
+        min-height: 24rem;
+        position: relative;
+        position: absolute;
+        background: var(--background) center/cover;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+       
+    .row {
+      flex-direction: row;
+    }
+  
